@@ -47,3 +47,28 @@ Random Forest outperformed Linear Regression on generalization — capturing non
 - Big Mountain's current price is below what its features would predict
 
 ## Tech Stack
+Python · scikit-learn · Pandas · NumPy · Matplotlib · Seaborn · Jupyter Notebook
+
+## Project Structure
+
+├── Notebooks/
+│ └── guided_capstone.ipynb # Full analysis and modeling
+├── raw_data/
+│ └── ski_data.csv # Resort dataset
+├── images/
+│ └── visualizations # EDA and model plots
+└── README.md
+
+
+## How to Run
+```bash
+git clone https://github.com/sunikshagupta/ski-resort-ticket-price-prediction
+cd ski-resort-ticket-price-prediction
+pip install -r requirements.txt
+jupyter notebook Notebooks/guided_capstone.ipynb
+```
+
+## Author
+**Suniksha Gupta, PhD**
+Data Scientist | Seattle, WA
+[LinkedIn](https://www.linkedin.com/in/suniksha-gupta) | [GitHub](https://github.com/sunikshagupta)
